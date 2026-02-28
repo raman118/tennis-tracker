@@ -1,0 +1,237 @@
+Calibration: homography_auto
+Pixel corners: [[     460.42      1.5917]
+ [     749.32      1.0066]
+ [     1082.6         608]
+ [     130.47      618.99]]
+H matrix:
+[[   0.028455    0.015207     -13.126]
+ [ 0.00025917     0.12797    -0.32302]
+ [-7.9528e-06   0.0037502           1]]
+  Corner 0: pixel=(460, 2) -> meter=(-0.00, -0.00)
+  Corner 1: pixel=(749, 1) -> meter=(8.23, -0.00)
+  Corner 2: pixel=(1083, 608) -> meter=(8.23, 23.77)
+  Corner 3: pixel=(130, 619) -> meter=(-0.00, 23.77)
+
+--- Frame 0 ---
+  Raw det count: 7
+    id=1 conf=0.85 foot=(693.9, 593.7) inside=True
+    id=2 conf=0.77 foot=(133.5, 316.0) inside=False
+    id=3 conf=0.72 foot=(417.4, 171.5) inside=True
+    id=4 conf=0.67 foot=(242.1, 232.1) inside=False
+    id=5 conf=0.67 foot=(843.5, 105.1) inside=True
+    id=6 conf=0.59 foot=(409.2, 117.0) inside=True
+    id=7 conf=0.58 foot=(364.9, 108.8) inside=True
+  Filtered count: 2
+    id=1 conf=0.85 foot=(693.9, 593.7)
+    id=3 conf=0.72 foot=(417.4, 171.5)
+
+--- Frame 1 ---
+  Raw det count: 7
+    id=1 conf=0.85 foot=(694.1, 593.7) inside=True
+    id=2 conf=0.76 foot=(133.6, 316.1) inside=False
+    id=3 conf=0.73 foot=(417.5, 171.5) inside=True
+    id=4 conf=0.67 foot=(242.0, 232.0) inside=False
+    id=5 conf=0.68 foot=(843.6, 105.0) inside=True
+    id=6 conf=0.59 foot=(409.2, 116.9) inside=True
+    id=7 conf=0.59 foot=(364.9, 108.8) inside=True
+  Filtered count: 2
+    id=1 conf=0.85 foot=(694.1, 593.7)
+    id=3 conf=0.73 foot=(417.5, 171.5)
+
+--- Frame 2 ---
+  Raw det count: 7
+    id=1 conf=0.86 foot=(693.8, 594.3) inside=True
+    id=2 conf=0.75 foot=(133.8, 316.2) inside=False
+    id=3 conf=0.71 foot=(417.8, 171.6) inside=True
+    id=4 conf=0.67 foot=(242.0, 231.9) inside=False
+    id=5 conf=0.67 foot=(843.6, 105.0) inside=True
+    id=6 conf=0.59 foot=(409.4, 116.8) inside=True
+    id=7 conf=0.59 foot=(364.9, 108.8) inside=True
+  Filtered count: 2
+    id=1 conf=0.86 foot=(693.8, 594.3)
+    id=3 conf=0.71 foot=(417.8, 171.6)
+
+--- Frame 3 ---
+  Raw det count: 7
+    id=1 conf=0.86 foot=(692.4, 595.7) inside=True
+    id=2 conf=0.74 foot=(134.1, 316.3) inside=False
+    id=3 conf=0.69 foot=(417.7, 171.8) inside=True
+    id=4 conf=0.68 foot=(242.0, 232.0) inside=False
+    id=5 conf=0.67 foot=(843.6, 105.0) inside=True
+    id=6 conf=0.57 foot=(409.4, 116.7) inside=True
+    id=7 conf=0.58 foot=(364.9, 108.7) inside=True
+  Filtered count: 2
+    id=1 conf=0.86 foot=(692.4, 595.7)
+    id=3 conf=0.69 foot=(417.7, 171.8)
+
+--- Frame 4 ---
+  Raw det count: 7
+    id=1 conf=0.86 foot=(692.2, 596.9) inside=True
+    id=2 conf=0.75 foot=(134.2, 316.4) inside=False
+    id=3 conf=0.66 foot=(417.8, 171.8) inside=True
+    id=4 conf=0.68 foot=(241.9, 232.0) inside=False
+    id=5 conf=0.66 foot=(843.6, 105.1) inside=True
+    id=6 conf=0.57 foot=(409.5, 116.7) inside=True
+    id=7 conf=0.58 foot=(364.9, 108.6) inside=True
+  Filtered count: 2
+    id=1 conf=0.86 foot=(692.2, 596.9)
+    id=3 conf=0.66 foot=(417.8, 171.8)
+
+--- Frame 29 ---
+  Raw det count: 7
+    id=1 conf=0.84 foot=(685.4, 629.3) inside=True
+    id=2 conf=0.74 foot=(135.1, 316.3) inside=False
+    id=3 conf=0.71 foot=(433.8, 169.1) inside=True
+    id=5 conf=0.67 foot=(843.4, 105.3) inside=True
+    id=7 conf=0.55 foot=(364.8, 108.6) inside=True
+    id=6 conf=0.60 foot=(409.9, 117.5) inside=True
+    id=8 conf=0.86 foot=(1008.0, 345.4) inside=False
+  Filtered count: 2
+    id=1 conf=0.84 foot=(685.4, 629.3)
+    id=3 conf=0.71 foot=(433.8, 169.1)
+  STATES after update:
+    P1: locked_id=1 foot=(685.423828125, 629.2545776367188) meter=(4.754215717315674, 23.962968826293945) dist=0.000000 detected=False conf=0.00
+    P2: locked_id=3 foot=(433.8166198730469, 169.12063598632812) meter=(1.0980385541915894, 13.142102241516113) dist=0.000000 detected=False conf=0.00
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 30 ---
+  Raw det count: 7
+    id=1 conf=0.85 foot=(686.4, 632.4) inside=True
+    id=2 conf=0.73 foot=(135.5, 316.6) inside=False
+    id=3 conf=0.74 foot=(434.9, 169.2) inside=True
+    id=5 conf=0.66 foot=(843.4, 105.3) inside=True
+    id=7 conf=0.54 foot=(364.8, 108.5) inside=True
+    id=6 conf=0.61 foot=(410.1, 117.7) inside=True
+    id=8 conf=0.88 foot=(1000.9, 346.8) inside=False
+  Filtered count: 2
+    id=1 conf=0.85 foot=(686.4, 632.4)
+    id=3 conf=0.74 foot=(434.9, 169.2)
+  STATES after update:
+    P1: locked_id=1 foot=(685.7156066894531, 630.1868408203125) meter=(4.75596284866333, 23.973587036132812) dist=0.000000 detected=True conf=0.85
+    P2: locked_id=3 foot=(434.1400665283203, 169.1521255493164) meter=(1.1038979291915894, 13.143693923950195) dist=0.000000 detected=True conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 31 ---
+  Raw det count: 7
+    id=1 conf=0.83 foot=(687.4, 634.7) inside=True
+    id=2 conf=0.76 foot=(136.2, 317.1) inside=False
+    id=3 conf=0.74 foot=(435.2, 168.9) inside=True
+    id=5 conf=0.65 foot=(843.4, 105.3) inside=True
+    id=7 conf=0.56 foot=(364.8, 108.4) inside=True
+    id=6 conf=0.61 foot=(410.2, 117.6) inside=True
+    id=8 conf=0.87 foot=(993.4, 349.4) inside=False
+  Filtered count: 2
+    id=1 conf=0.83 foot=(687.4, 634.7)
+    id=3 conf=0.74 foot=(435.2, 168.9)
+  STATES after update:
+    P1: locked_id=1 foot=(686.2143493652343, 631.5297875976562) meter=(4.759139060974121, 23.988855361938477) dist=0.000000 detected=True conf=0.83
+    P2: locked_id=3 foot=(434.4617626953125, 169.0787840270996) meter=(1.1090154647827148, 13.140226364135742) dist=0.000000 detected=True conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 32 ---
+  Raw det count: 7
+    id=1 conf=0.84 foot=(689.1, 634.5) inside=True
+    id=2 conf=0.76 foot=(136.7, 317.3) inside=False
+    id=3 conf=0.74 foot=(435.6, 168.3) inside=True
+    id=5 conf=0.66 foot=(843.4, 105.3) inside=True
+    id=7 conf=0.55 foot=(364.8, 108.4) inside=True
+    id=6 conf=0.60 foot=(410.5, 117.6) inside=True
+    id=8 conf=0.87 foot=(986.8, 351.6) inside=True
+  Filtered count: 2
+    id=8 conf=0.87 foot=(986.8, 351.6)
+    id=1 conf=0.84 foot=(689.1, 634.5)
+  STATES after update:
+    P1: locked_id=1 foot=(687.0824084472655, 632.4306474609374) meter=(4.765779972076416, 23.999143600463867) dist=0.000000 detected=True conf=0.84
+    P2: locked_id=3 foot=(434.4617626953125, 169.0787840270996) meter=(1.1090154647827148, 13.140226364135742) dist=0.000000 detected=False conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+  STATES after update:
+    P1: locked_id=1 foot=(687.9391464843749, 633.056012548828) meter=(4.772531986236572, 24.006305694580078) dist=0.000000 detected=True conf=0.84
+    P2: locked_id=3 foot=(434.4617626953125, 169.0787840270996) meter=(1.1090154647827148, 13.140226364135742) dist=0.000000 detected=False conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+  STATES after update:
+    P1: locked_id=1 foot=(688.6279988525389, 633.7015195751952) meter=(4.777838706970215, 24.01366424560547) dist=0.000000 detected=True conf=0.85
+    P2: locked_id=3 foot=(435.2343392333984, 168.63401539611814) meter=(1.1194989681243896, 13.118912696838379) dist=0.000000 detected=True conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+  STATES after update:
+    P1: locked_id=1 foot=(689.6203365014646, 634.1458671694335) meter=(4.785865306854248, 24.01879119873047) dist=0.000000 detected=True conf=0.82
+    P2: locked_id=3 foot=(435.2343392333984, 168.63401539611814) meter=(1.1194989681243896, 13.118912696838379) dist=0.000000 detected=False conf=0.74
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 40 ---
+  Raw det count: 7
+    id=1 conf=0.76 foot=(697.5, 635.9) inside=True
+    id=2 conf=0.75 foot=(137.4, 316.6) inside=False
+    id=3 conf=0.77 foot=(442.2, 167.2) inside=True
+    id=5 conf=0.65 foot=(843.4, 105.3) inside=True
+    id=7 conf=0.55 foot=(364.8, 108.5) inside=True
+    id=6 conf=0.64 foot=(412.4, 117.3) inside=True
+    id=8 conf=0.66 foot=(913.5, 364.0) inside=True
+  Filtered count: 2
+    id=3 conf=0.77 foot=(442.2, 167.2)
+    id=1 conf=0.76 foot=(697.5, 635.9)
+  STATES after update:
+    P1: locked_id=1 foot=(692.7142813530028, 634.9243417343114) meter=(4.811349391937256, 24.027942657470703) dist=0.000000 detected=True conf=0.76
+    P2: locked_id=3 foot=(439.7413218842406, 167.61290188603664) meter=(1.1915239095687866, 13.070425033569336) dist=0.000000 detected=True conf=0.77
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 50 ---
+  Raw det count: 7
+    id=1 conf=0.61 foot=(712.9, 635.5) inside=True
+    id=2 conf=0.71 foot=(137.0, 316.8) inside=False
+    id=3 conf=0.73 foot=(448.0, 167.6) inside=True
+    id=5 conf=0.66 foot=(843.4, 105.2) inside=True
+    id=7 conf=0.51 foot=(364.9, 108.4) inside=True
+    id=6 conf=0.64 foot=(412.5, 117.5) inside=True
+    id=8 conf=0.82 foot=(828.9, 380.1) inside=True
+  Filtered count: 2
+    id=8 conf=0.82 foot=(828.9, 380.1)
+    id=3 conf=0.73 foot=(448.0, 167.6)
+  STATES after update:
+    P1: locked_id=1 foot=(698.6457077228089, 635.5937385503522) meter=(4.860817909240723, 24.036235809326172) dist=0.000000 detected=False conf=0.77
+    P2: locked_id=3 foot=(445.5110422694159, 167.6827487050566) meter=(1.293033480644226, 13.07510757446289) dist=0.000000 detected=True conf=0.73
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 55 ---
+  Raw det count: 7
+    id=2 conf=0.72 foot=(136.5, 316.5) inside=False
+    id=3 conf=0.73 foot=(450.5, 168.0) inside=True
+    id=5 conf=0.65 foot=(843.4, 105.1) inside=True
+    id=7 conf=0.53 foot=(364.9, 108.2) inside=True
+    id=6 conf=0.66 foot=(412.4, 117.5) inside=True
+    id=8 conf=0.88 foot=(784.3, 388.5) inside=True
+    id=1 conf=0.54 foot=(705.4, 635.7) inside=True
+  Filtered count: 2
+    id=8 conf=0.88 foot=(784.3, 388.5)
+    id=3 conf=0.73 foot=(450.5, 168.0)
+  STATES after update:
+    P1: locked_id=1 foot=(703.6055446003021, 635.6376872977465) meter=(4.902613162994385, 24.037389755249023) dist=0.000000 detected=False conf=0.72
+    P2: locked_id=3 foot=(448.61178339915523, 167.8395894920992) meter=(1.3483201265335083, 13.083414077758789) dist=0.000000 detected=True conf=0.73
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05
+
+--- Frame 59 ---
+  Raw det count: 7
+    id=2 conf=0.71 foot=(136.2, 316.3) inside=False
+    id=3 conf=0.76 foot=(452.9, 167.7) inside=True
+    id=5 conf=0.65 foot=(843.6, 105.0) inside=True
+    id=7 conf=0.53 foot=(365.0, 108.3) inside=True
+    id=6 conf=0.65 foot=(412.5, 117.5) inside=True
+    id=8 conf=0.86 foot=(746.2, 396.4) inside=True
+    id=1 conf=0.66 foot=(701.6, 635.5) inside=True
+  Filtered count: 2
+    id=8 conf=0.86 foot=(746.2, 396.4)
+    id=3 conf=0.76 foot=(452.9, 167.7)
+  STATES after update:
+    P1: locked_id=1 foot=(703.036045526852, 635.4409245654538) meter=(4.897994041442871, 24.035110473632812) dist=0.000000 detected=False conf=0.80
+    P2: locked_id=3 foot=(450.98116989194534, 167.8143902065322) meter=(1.389649510383606, 13.082720756530762) dist=0.000000 detected=True conf=0.76
+    P1 delta=0.000000m threshold=0.05
+    P2 delta=0.000000m threshold=0.05

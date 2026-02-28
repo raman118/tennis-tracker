@@ -1,0 +1,52 @@
+
+--- Frame 29 ---
+  Filtered: [(1, '0.84'), (3, '0.71')]
+  P1: locked=1 detected=False dist=0.0000m
+  P2: locked=3 detected=False dist=0.0000m
+
+--- Frame 30 ---
+  Filtered: [(1, '0.85'), (3, '0.74')]
+  P1: locked=1 detected=True dist=0.0000m
+  P2: locked=3 detected=True dist=0.0000m
+
+--- Frame 40 ---
+  Filtered: [(1, '0.76'), (3, '0.77')]
+  P1: locked=1 detected=True dist=0.1118m
+  P2: locked=3 detected=True dist=0.1142m
+
+--- Frame 50 ---
+  Filtered: [(1, '0.61'), (3, '0.73')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.2268m
+
+--- Frame 59 ---
+  Filtered: [(3, '0.76'), (1, '0.66')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.2841m
+
+--- Frame 70 ---
+  Filtered: [(3, '0.79'), (1, '0.87')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.3968m
+
+--- Frame 80 ---
+  Filtered: [(3, '0.77'), (1, '0.87')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.4500m
+
+--- Frame 90 ---
+  Filtered: [(3, '0.75'), (1, '0.89')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.5575m
+
+--- Frame 99 ---
+  Filtered: [(3, '0.76'), (1, '0.90')]
+  P1: locked=1 detected=True dist=0.1805m
+  P2: locked=3 detected=True dist=0.5575m
+
+=== FINAL RESULTS ===
+P1 total distance: 0.1805 m
+P2 total distance: 0.5575 m
+P1 trail length: 60
+P2 trail length: 60
+Output: outputs\test_100_frames.mp4 (1493.7 KB)
